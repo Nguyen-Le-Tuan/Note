@@ -110,7 +110,7 @@ export default function Home() {
         <SidebarHeader>
           <div className="flex items-center gap-2 p-2">
             <BookOpen className="h-6 w-6 text-primary" />
-            <h1 className="text-xl font-semibold">EduGenius</h1>
+            <h1 className="text-xl font-semibold">StudyPark</h1>
           </div>
         </SidebarHeader>
         <SidebarContent>

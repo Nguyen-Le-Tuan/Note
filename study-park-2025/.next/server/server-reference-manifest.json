@@ -1,0 +1,28 @@
+{
+  "node": {
+    "408799d05177ec3be23c360aa79942804363adc22d": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5CDownloads%5C%5CNote%5C%5Cstudy-park-2025%5C%5Csrc%5C%5Cai%5C%5Cflows%5C%5Ccreate-practice-exam.ts%22%2C%5B%7B%22id%22%3A%22408799d05177ec3be23c360aa79942804363adc22d%22%2C%22exportedName%22%3A%22generatePracticeExam%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5CDownloads%5C%5CNote%5C%5Cstudy-park-2025%5C%5Csrc%5C%5Cai%5C%5Cflows%5C%5Cgenerate-questions-from-image.ts%22%2C%5B%7B%22id%22%3A%2240c03ac29a7c037c589bd1aaf2038ad06718334afa%22%2C%22exportedName%22%3A%22generateQuestionsFromImage%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    },
+    "40c03ac29a7c037c589bd1aaf2038ad06718334afa": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5CDownloads%5C%5CNote%5C%5Cstudy-park-2025%5C%5Csrc%5C%5Cai%5C%5Cflows%5C%5Ccreate-practice-exam.ts%22%2C%5B%7B%22id%22%3A%22408799d05177ec3be23c360aa79942804363adc22d%22%2C%22exportedName%22%3A%22generatePracticeExam%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CLenovo%5C%5CDownloads%5C%5CNote%5C%5Cstudy-park-2025%5C%5Csrc%5C%5Cai%5C%5Cflows%5C%5Cgenerate-questions-from-image.ts%22%2C%5B%7B%22id%22%3A%2240c03ac29a7c037c589bd1aaf2038ad06718334afa%22%2C%22exportedName%22%3A%22generateQuestionsFromImage%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "vDcgyXP0t4Oey7Fh+6xYG3nTJZdSDUo6ygHZmUxMFlg="
+}

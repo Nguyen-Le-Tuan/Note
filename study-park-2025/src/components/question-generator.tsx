@@ -324,7 +324,7 @@ export default function QuestionGenerator({ profilePicture }: QuestionGeneratorP
                 <Label className="font-semibold block mb-2">{index + 1}. {q.question}</Label>
                 {q.type === 'multiple_choice' && q.options ? (
                   <RadioGroup
-                    onValueChange={(value) => handleAnswerChange(index, value)}
+                    onValueChange={(value:string) => handleAnswerChange(index, value)}
                     value={userAnswers[index]}
                     disabled={submitted}
                     className="space-y-2"

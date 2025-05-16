@@ -1,7 +1,8 @@
-import type {Metadata} from 'next';
-import {Geist, Geist_Mono} from 'next/font/google';
+import type { Metadata } from 'next';
+import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
-import { Toaster } from "@/components/ui/toaster" // Import Toaster
+import { Toaster } from '@/components/ui/toaster';
+import ClientHtmlWrapper from '@/components/ClientHtmlWrapper';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -14,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'EduGenius', // Update title
-  description: 'Personalized learning with AI-powered question generation.', // Update description
+  title: 'StudyPark',
+  description: 'Personalized learning with AI-powered question generation.',
 };
 
 export default function RootLayout({
@@ -25,9 +26,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        {children}
-        <Toaster /> {/* Add Toaster here */}
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased font-sans`}>
+
+        <ClientHtmlWrapper>
+          {children}
+          <Toaster />
+        </ClientHtmlWrapper>
       </body>
     </html>
   );
